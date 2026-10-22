@@ -1,0 +1,19 @@
+MON PASSEPORT DE COMPÉTENCES — VERSION INSTALLABLE
+
+Contenu du dossier :
+- index.html : votre page, enrichie des paramètres d’installation
+- manifest.webmanifest : nom, icônes et mode d’affichage de l’application
+- sw.js : cache de base pour permettre une ouverture hors connexion après un premier chargement réussi
+- icon-192.png, icon-512.png, apple-touch-icon.png : icônes
+
+MISE EN LIGNE SUR LE SITE NETLIFY EXISTANT
+1. Décompressez cette archive ZIP sur votre ordinateur.
+2. Dans Netlify, ouvrez le site existant puis la rubrique Deploys.
+3. Utilisez la zone de déploiement manuel (« deploy manually » / « drag and drop ») si elle est proposée, et déposez le DOSSIER contenant directement index.html, manifest.webmanifest, sw.js et les icônes. Si Netlify ne propose pas cette zone pour le projet existant, ne créez pas un nouveau site : envoyez une capture d’écran de la page Deploys.
+4. Après publication, testez l’adresse du site. Sur Android, ouvrez-la dans Chrome puis menu ⋮ > Installer l’application ou Ajouter à l’écran d’accueil. Sur iPhone, ouvrez-la dans Safari, touchez Partager puis Sur l’écran d’accueil.
+
+À SAVOIR
+Cette configuration rend le site installable comme une application web (PWA), mais ce n’est pas une application native publiée en boutique. Les fonctions qui dépendent d’Internet peuvent nécessiter une connexion.
+
+CONFIDENTIALITÉ
+Le fichier HTML fourni contient des codes d’élèves directement dans le JavaScript. Ces codes peuvent être lus par une personne qui inspecte le code source. Ne considérez donc pas ces codes comme des identifiants secrets. Avant diffusion à grande échelle, envisagez de remplacer ce mécanisme par une solution plus sûre.
