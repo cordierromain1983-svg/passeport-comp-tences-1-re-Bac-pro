@@ -1,15 +1,18 @@
 {
   "id": "./",
-  "name": "Mon passeport de compétences – 1re Bac Pro",
-  "short_name": "Passeport 1re",
-  "description": "Passeport de compétences – Français, 1re Bac Pro",
+  "name": "Mon passeport – 1MS",
+  "short_name": "Mon passeport",
+  "description": "Mon passeport de compétences en français : fiches en ligne et badges à débloquer.",
   "lang": "fr-FR",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#f4f6fb",
-  "theme_color": "#1f3864",
+  "background_color": "#15102e",
+  "theme_color": "#15102e",
+  "categories": [
+    "education"
+  ],
   "icons": [
     {
       "src": "./icon-192.png",
@@ -22,6 +25,12 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
